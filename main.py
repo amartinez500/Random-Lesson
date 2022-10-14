@@ -16,3 +16,4 @@ else: print("not doubles")
 # create a way to roll snakes
 if dice1 and dice2 ==1:
   print("you rolled snake eyes")
+else: print("you did not roll snake eyes")
