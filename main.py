@@ -1,5 +1,6 @@
 from random import randint
 from random import shuffle
+from random import choice
   # random
  # Python comes with a built in random library. There are a lot of functions included in this 
  #random library, so we will only 
@@ -35,5 +36,6 @@ if (random % 2) == 0:
 else:
   print("{0} is Odd number". format(random))
 
-
-
+color = ["red", "blue", "pink", "purple"]
+random_color = choice(color)
+print(f"random color is {random_color}")
